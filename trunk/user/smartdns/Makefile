@@ -1,12 +1,12 @@
 include $(ROOTDIR)/rules.mk
 
 PKG_NAME:=smartdns
-PKG_VERSION:=1.2023.43
+PKG_VERSION:=Release45
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://www.github.com/pymumu/smartdns.git
-PKG_SOURCE_VERSION:=1ba6ee7cb98b5b6448bc2a2be318eb3518d4de79
-PKG_MIRROR_HASH:=a31c1d79ffb253507a1a8e0bb8e6d93fa65efef22a3cdd098400157187bbfe20
+PKG_SOURCE_VERSION:=9ee27e7ba2d9789b7e007410e76c06a957f85e98
+PKG_MIRROR_HASH:=skip
 
 include $(INCLUDE_DIR)/package.mk
 
